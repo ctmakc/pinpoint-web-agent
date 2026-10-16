@@ -1,0 +1,12 @@
+{"id": "q01", "query": "What is the memory capacity of the AMD Instinct MI300X?", "expect": ["192 GB", "192GB"]}
+{"id": "q02", "query": "In what year was the University of Ottawa founded?", "expect": ["1848"]}
+{"id": "q03", "query": "Who directed the 2023 film Oppenheimer?", "expect": ["Christopher Nolan"]}
+{"id": "q04", "query": "What HTTP status code means I'm a teapot?", "url": "https://docs.python.org/3/library/http.html", "expect": ["418"]}
+{"id": "q05", "query": "How tall is the CN Tower in metres?", "expect": ["553.3", "553"]}
+{"id": "q06", "query": "In what year did the Rideau Canal open?", "expect": ["1832"]}
+{"id": "q07", "query": "What was the population of Ottawa in the 2021 census?", "url": "https://en.wikipedia.org/wiki/Ottawa", "expect": ["1,017,449", "1017449"]}
+{"id": "q08", "query": "What is the phone number of the Reykjavik office of Pinpoint Retrieval Ltd?", "expect": [""]}
+{"id": "q09", "query": "Under which license is the requests package published?", "url": "https://pypi.org/project/requests/", "expect": ["Apache"]}
+{"id": "q10", "query": "What maximum line length does PEP 8 recommend?", "url": "https://peps.python.org/", "expect": ["79"]}
+{"id": "q11", "query": "Who is the CEO of AMD?", "url": "https://en.wikipedia.org/wiki/AMD", "expect": ["Lisa Su"]}
+{"id": "q12", "query": "What is the chemical symbol for tungsten?", "expect": ["W"]}

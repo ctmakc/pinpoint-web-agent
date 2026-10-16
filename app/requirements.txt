@@ -1,0 +1,18 @@
+# Installed on top of rocm/pytorch:rocm10.0_ubuntu26.04_py3.14_pytorch_release_2.13.0.
+# None of these pull torch, so the ROCm torch from the base image stays in place.
+transformers==5.20.0
+huggingface_hub==2.2.0
+tokenizers==0.23.3
+safetensors==0.8.0
+hf-xet==1.7.0
+regex==2026.9.29
+httpx2==2.13.1
+httpcore2==2.13.1
+click==8.5.0
+typer==0.27.3
+truststore==0.10.5
+annotated-doc==0.0.5
+rich==15.0.0
+markdown-it-py==4.2.0
+mdurl==0.1.2
+shellingham==1.5.4

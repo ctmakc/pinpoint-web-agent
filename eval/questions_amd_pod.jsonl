@@ -1,0 +1,15 @@
+{"id": "a01", "query": "What maximum line length does PEP 8 recommend?", "url": "https://peps.python.org/", "expect": ["79"]}
+{"id": "a02", "query": "Which PEP number is The Zen of Python?", "url": "https://peps.python.org/", "expect": ["20"]}
+{"id": "a03", "query": "Which PEP introduced formatted string literals (f-strings)?", "url": "https://peps.python.org/", "expect": ["498"]}
+{"id": "a04", "query": "What is the title of PEP 572?", "url": "https://peps.python.org/", "expect": ["Assignment Expressions"]}
+{"id": "a05", "query": "What HTTP status code means I'm a teapot?", "url": "https://docs.python.org/3/library/http.html", "expect": ["418"]}
+{"id": "a06", "query": "Under which license is the requests package published?", "url": "https://pypi.org/project/requests/", "expect": ["Apache"]}
+{"id": "a07", "query": "Who is the author of the requests library?", "url": "https://pypi.org/project/requests/", "expect": ["Kenneth Reitz"]}
+{"id": "a08", "query": "What is the title of arXiv paper 1706.03762?", "expect": ["Attention Is All You Need"]}
+{"id": "a09", "query": "Who is the first author listed on arXiv paper 1706.03762?", "url": "https://arxiv.org/abs/1706.03762", "expect": ["Ashish Vaswani", "Vaswani"]}
+{"id": "a10", "query": "On what date was arXiv paper 2005.14165 first submitted?", "url": "https://arxiv.org/abs/2005.14165", "expect": ["28 May 2020", "May 28, 2020", "2020-05-28"]}
+{"id": "a11", "query": "What license does the pytorch/pytorch GitHub repository use?", "url": "https://api.github.com/repos/pytorch/pytorch", "expect": ["BSD", "Other"]}
+{"id": "a12", "query": "What is the phone number of the Python Software Foundation office in Reykjavik?", "url": "https://www.python.org/psf/", "expect": [""]}
+{"id": "a13", "query": "In which Python module is the function urljoin defined?", "url": "https://docs.python.org/3/library/", "expect": ["urllib.parse"]}
+{"id": "a14", "query": "What is the default value of the timeout parameter of socket.create_connection?", "url": "https://docs.python.org/3/library/socket.html", "expect": ["GLOBAL_DEFAULT"]}
+{"id": "a15", "query": "Which PEP describes the Python packaging core metadata field Requires-Python?", "url": "https://peps.python.org/", "expect": ["345"]}

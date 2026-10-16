@@ -1,0 +1,310 @@
+{
+  "passed": 11,
+  "total": 15,
+  "results": [
+    {
+      "id": "a01",
+      "query": "What maximum line length does PEP 8 recommend?",
+      "url": "https://peps.python.org/",
+      "expect": [
+        "79"
+      ],
+      "answer": "79 characters",
+      "sources": [
+        "https://peps.python.org/pep-0008/"
+      ],
+      "pass": true,
+      "wall_s": 3.6,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 3/3",
+        "read round 1: 8 passages, answer='79 characters'"
+      ]
+    },
+    {
+      "id": "a02",
+      "query": "Which PEP number is The Zen of Python?",
+      "url": "https://peps.python.org/",
+      "expect": [
+        "20"
+      ],
+      "answer": "20",
+      "sources": [
+        "https://peps.python.org/",
+        "https://peps.python.org/api/peps.json"
+      ],
+      "pass": true,
+      "wall_s": 2.7,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 3/3",
+        "read round 1: 8 passages, answer='20'"
+      ]
+    },
+    {
+      "id": "a03",
+      "query": "Which PEP introduced formatted string literals (f-strings)?",
+      "url": "https://peps.python.org/",
+      "expect": [
+        "498"
+      ],
+      "answer": "",
+      "sources": [],
+      "pass": false,
+      "wall_s": 16.1,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 3/3",
+        "read round 1: 8 passages, answer='PEP 536'",
+        "answer not found in the cited page text; rejected",
+        "follow: fetched 2/2",
+        "read round 2: 8 passages, answer='PEP 500'",
+        "answer not found in the cited page text; rejected",
+        "follow: fetched 2/2",
+        "read round 3: 8 passages, answer='PEP 701'",
+        "answer not found in the cited page text; rejected",
+        "follow: fetched 1/2 (https://peps.python.org/pep-0008/ URLError: <urlopen error timed out>)"
+      ]
+    },
+    {
+      "id": "a04",
+      "query": "What is the title of PEP 572?",
+      "url": "https://peps.python.org/",
+      "expect": [
+        "Assignment Expressions"
+      ],
+      "answer": "PEP 572 – Assignment Expressions",
+      "sources": [
+        "https://peps.python.org/pep-0572/"
+      ],
+      "pass": true,
+      "wall_s": 8.1,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 3/3",
+        "read round 1: 8 passages, answer='PEP 572 – Assignment Expressions'"
+      ]
+    },
+    {
+      "id": "a05",
+      "query": "What HTTP status code means I'm a teapot?",
+      "url": "https://docs.python.org/3/library/http.html",
+      "expect": [
+        "418"
+      ],
+      "answer": "418",
+      "sources": [
+        "https://docs.python.org/3/library/http.html"
+      ],
+      "pass": true,
+      "wall_s": 2.1,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 1/3 (https://www.iana.org/assignments/http-status-codes/http-stat URLError: <urlopen error Tunnel connection failed:; https://www.iana.org/assignments/http-methods/http-methods.x URLError: <urlopen error Tunnel connection failed:)",
+        "read round 1: 8 passages, answer='418'"
+      ]
+    },
+    {
+      "id": "a06",
+      "query": "Under which license is the requests package published?",
+      "url": "https://pypi.org/project/requests/",
+      "expect": [
+        "Apache"
+      ],
+      "answer": "OSI Approved :: Apache Software License",
+      "sources": [
+        "https://pypi.org/project/requests/"
+      ],
+      "pass": true,
+      "wall_s": 8.0,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 1/3 (https://github.com/psf/requests URLError: <urlopen error timed out>; https://github.com/psf/requests/network/dependents?package_i URLError: <urlopen error timed out>)",
+        "read round 1: 8 passages, answer='OSI Approved :: Apache Software License'"
+      ]
+    },
+    {
+      "id": "a07",
+      "query": "Who is the author of the requests library?",
+      "url": "https://pypi.org/project/requests/",
+      "expect": [
+        "Kenneth Reitz"
+      ],
+      "answer": "Kenneth Reitz",
+      "sources": [
+        "https://pypi.org/project/requests/"
+      ],
+      "pass": true,
+      "wall_s": 8.2,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 1/3 (https://github.com/psf/requests URLError: <urlopen error timed out>; https://github.com/psf/requests   URLError: <urlopen error timed out>)",
+        "read round 1: 8 passages, answer='Kenneth Reitz'"
+      ]
+    },
+    {
+      "id": "a08",
+      "query": "What is the title of arXiv paper 1706.03762?",
+      "url": null,
+      "expect": [
+        "Attention Is All You Need"
+      ],
+      "answer": "",
+      "sources": [],
+      "pass": false,
+      "wall_s": 5.6,
+      "steps": [
+        "search ddg-lite: URLError, ddg-html: URLError, bing: 0, wikipedia: URLError",
+        "no readable passages"
+      ]
+    },
+    {
+      "id": "a09",
+      "query": "Who is the first author listed on arXiv paper 1706.03762?",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "expect": [
+        "Ashish Vaswani",
+        "Vaswani"
+      ],
+      "answer": "Ashish Vaswani",
+      "sources": [
+        "https://arxiv.org/abs/1706.03762"
+      ],
+      "pass": true,
+      "wall_s": 15.6,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 0/3 (https://arxiv.org/auth/show-endorsers/1706.03762 HTTPError: HTTP Error 401: Login Required; https://ui.adsabs.harvard.edu/abs/arXiv:1706.03762 URLError: <urlopen error Tunnel connection failed:; https://scholar.google.com/scholar_lookup?arxiv_id=1706.0376 URLError: <urlopen error timed out>)",
+        "read round 1: 8 passages, answer='Ashish Vaswani'"
+      ]
+    },
+    {
+      "id": "a10",
+      "query": "On what date was arXiv paper 2005.14165 first submitted?",
+      "url": "https://arxiv.org/abs/2005.14165",
+      "expect": [
+        "28 May 2020",
+        "May 28, 2020",
+        "2020-05-28"
+      ],
+      "answer": "28 May 2020",
+      "sources": [
+        "https://arxiv.org/abs/2005.14165"
+      ],
+      "pass": true,
+      "wall_s": 8.8,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 0/3 (https://ui.adsabs.harvard.edu/abs/arXiv:2005.14165 URLError: <urlopen error Tunnel connection failed:; https://scholar.google.com/scholar_lookup?arxiv_id=2005.1416 URLError: <urlopen error timed out>; https://api.semanticscholar.org/arXiv:2005.14165 URLError: <urlopen error Tunnel connection failed:)",
+        "read round 1: 8 passages, answer='28 May 2020'"
+      ]
+    },
+    {
+      "id": "a11",
+      "query": "What license does the pytorch/pytorch GitHub repository use?",
+      "url": "https://api.github.com/repos/pytorch/pytorch",
+      "expect": [
+        "BSD",
+        "Other"
+      ],
+      "answer": "Other",
+      "sources": [
+        "https://api.github.com/repos/pytorch/pytorch"
+      ],
+      "pass": true,
+      "wall_s": 2.1,
+      "steps": [
+        "start page: fetched 1/1",
+        "read round 1: 4 passages, answer='Other'"
+      ]
+    },
+    {
+      "id": "a12",
+      "query": "What is the phone number of the Python Software Foundation office in Reykjavik?",
+      "url": "https://www.python.org/psf/",
+      "expect": [
+        ""
+      ],
+      "answer": "",
+      "sources": [],
+      "pass": true,
+      "wall_s": 13.2,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 1/3 (https://mailchi.mp/python/python-software-foundation-july-20 URLError: <urlopen error Tunnel connection failed:; https://mailchi.mp/python/python-software-foundation-july-20 URLError: <urlopen error Tunnel connection failed:)",
+        "read round 1: 8 passages, answer=''",
+        "follow: fetched 2/2",
+        "read round 2: 8 passages, answer=''",
+        "follow: fetched 1/2 (https://wiki.qt.io/Qt_for_Python URLError: <urlopen error Tunnel connection failed:)",
+        "read round 3: 8 passages, answer=''",
+        "follow: fetched 1/2 (https://web.archive.orghttps://www.python.org/ URLError: <urlopen error timed out>)"
+      ]
+    },
+    {
+      "id": "a13",
+      "query": "In which Python module is the function urljoin defined?",
+      "url": "https://docs.python.org/3/library/",
+      "expect": [
+        "urllib.parse"
+      ],
+      "answer": "",
+      "sources": [],
+      "pass": false,
+      "wall_s": 11.5,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 3/3",
+        "read round 1: 8 passages, answer='urljoin is not defined in any of the listed modules.'",
+        "answer not found in the cited page text; rejected",
+        "follow: fetched 2/2",
+        "read round 2: 8 passages, answer=''",
+        "follow: fetched 1/2 (https://wiki.qt.io/Qt_for_Python URLError: <urlopen error Tunnel connection failed:)",
+        "read round 3: 8 passages, answer=''",
+        "follow: fetched 2/2"
+      ]
+    },
+    {
+      "id": "a14",
+      "query": "What is the default value of the timeout parameter of socket.create_connection?",
+      "url": "https://docs.python.org/3/library/socket.html",
+      "expect": [
+        "GLOBAL_DEFAULT"
+      ],
+      "answer": "GLOBAL_DEFAULT",
+      "sources": [
+        "https://docs.python.org/3/library/socket.html"
+      ],
+      "pass": true,
+      "wall_s": 2.8,
+      "steps": [
+        "start page: fetched 1/1",
+        "read round 1: 8 passages, answer='GLOBAL_DEFAULT'"
+      ]
+    },
+    {
+      "id": "a15",
+      "query": "Which PEP describes the Python packaging core metadata field Requires-Python?",
+      "url": "https://peps.python.org/",
+      "expect": [
+        "345"
+      ],
+      "answer": "",
+      "sources": [],
+      "pass": false,
+      "wall_s": 10.1,
+      "steps": [
+        "start page: fetched 1/1",
+        "links from start page: fetched 3/3",
+        "read round 1: 8 passages, answer='PEP 503'",
+        "answer not found in the cited page text; rejected",
+        "follow: fetched 1/2 (https://mailchi.mp/python/python-software-foundation-july-20 URLError: <urlopen error Tunnel connection failed:)",
+        "read round 2: 8 passages, answer='PEP 783'",
+        "answer not found in the cited page text; rejected",
+        "follow: fetched 1/2 (https://mailchi.mp/python/python-software-foundation-july-20 URLError: <urlopen error Tunnel connection failed:)",
+        "read round 3: 8 passages, answer='PEP 503'",
+        "answer not found in the cited page text; rejected",
+        "follow: fetched 2/2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+=== server
+pinpoint ready {"model": "Qwen/Qwen2.5-7B-Instruct", "gpu": "AMD Radeon Pro W7900D", "hip": "7.15.26333", "load_s": 20.4, "ready_s": 25.4}
+=== vram_peak_bytes 17623592960
+=== env
+3.14.4 2.13.0+rocm10.0.0 7.15.26333 AMD Radeon Pro W7900D
+GPU[0]		: Card Series: 		AMD Radeon Pro W7900D
+GPU[0]		: GFX Version: 		gfx1100
+Fri Oct 16 00:58:40 UTC 2026
+__RC_0__
